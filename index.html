@@ -1,109 +1,88 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #000;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #222;
-        }
-        nav a {
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        section.hero {
-            background: url('your-image-url.jpg') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
-        }
-        section {
-            padding: 50px 20px;
-            text-align: center;
-        }
-        .card {
-            display: inline-block;
-            width: 300px;
-            margin: 20px;
-            text-align: left;
-            background-color: #f4f4f4;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .card img {
-            max-width: 100%;
-        }
-        footer {
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Template</title>
+
+  <!-- 1) 引入外部 CSS (styles.css) -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- 2) 引入 Font Awesome，用於顯示 Twitter / YouTube / Facebook 圖示 -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  />
 </head>
 <body>
+  
+  <!-- 頁首 (Header) -->
+  <header>
+    <h1>Template</h1>
+  </header>
 
-<header>
-    <h1>yayayayayaya5566</h1>
-</header>
-
-<nav>
+  <!-- 導覽列 (Nav) -->
+  <nav>
     <a href="#">Our Mission</a>
     <a href="#">Team</a>
     <a href="#">Services</a>
     <a href="#">Blog</a>
     <a href="#">Contact</a>
-</nav>
+  </nav>
 
-<section class="hero">
+  <!-- 形象區 (Hero Section) -->
+  <section class="hero">
     <h1>Lorem Ipsum Dolor</h1>
     <p>Placeholder text for your hero section.</p>
-</section>
+  </section>
 
-<section>
+  <!-- 內容區塊 (About Us) -->
+  <section>
     <h2>About Us</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel velit eu erat feugiat consectetur.</p>
-</section>
+  </section>
 
-<section>
+  <!-- 內容區塊 (Our Team) -->
+  <section>
     <h2>Our Team</h2>
     <div class="card">
-        <img src="your-image-url.jpg" alt="">
-        <h3>Team Member</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <img src="your-image-url.jpg" alt="">
+      <h3>Team Member</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     <div class="card">
-        <img src="your-image-url.jpg" alt="">
-        <h3>Team Member</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <img src="your-image-url.jpg" alt="">
+      <h3>Team Member</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-</section>
+  </section>
 
-<section>
+  <!-- 內容區塊 (Our Services) -->
+  <section>
     <h2>Our Services</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-</section>
+  </section>
 
-<footer>
+  <!-- 頁尾 (Footer) -->
+  <footer>
     <p>Made with &hearts; by Lorem Ipsum</p>
-</footer>
+
+    <!-- 社群圖示連結區塊 -->
+    <div class="social-icons">
+      <!-- 範例：Twitter icon -->
+      <a href="https://twitter.com/你的帳號" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <!-- 範例：YouTube icon -->
+      <a href="https://www.youtube.com/你的帳號" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <!-- 範例：Facebook icon -->
+      <a href="https://www.facebook.com/你的粉專" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+  </footer>
 
 </body>
 </html>
